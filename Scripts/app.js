@@ -14,29 +14,29 @@
     var paragraphs = [];
     //creating a ref to my send button
     
-    var SendButton = document.getElementById("SendButton"); 
-        SendButton.addEventListener("click", SendButtonClick);
+    //var SendButton = document.getElementById("SendButton"); 
+    //    SendButton.addEventListener("click", SendButtonClick);
     
     
-    function SendButtonClick(event) {
-        console.log("Clicked");
+    //function SendButtonClick(event) {
+      //  console.log("Clicked");
           
-    }
+    //}
         
-    var contactForm = document.getElementById("contactForm");
+    //var contactForm = document.getElementById("contactForm");
     
-    contactForm.addEventListener("submit", function (event) {
-        event.preventDefault();
-        console.log("submitted");
-        showFormInput();
-        contactForm.reset(); 
-    });
+   // contactForm.addEventListener("submit", function (event) {
+   //     event.preventDefault();
+   //     console.log("submitted");
+   //     showFormInput();
+   //     contactForm.reset(); 
+   // });
     
-    function showFormInput() {
-        console.log("!!!!!!!!!!!!!!!!!!!!!!");
-        console.log("First Name: " + name.value);
-        console.log("!!!!!!!!!!!!!!!!!!!!!!");
-    }
+   // function showFormInput() {
+   //     console.log("!!!!!!!!!!!!!!!!!!!!!!");
+   //     console.log("First Name: " + name.value);
+    //    console.log("!!!!!!!!!!!!!!!!!!!!!!");
+    //}
   
     
     // data for my pages
